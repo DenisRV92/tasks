@@ -1,0 +1,20 @@
+.circle {
+    width: 10em;
+    margin: 1em auto;
+    border-radius: 50%;
+}
+
+.circle::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 100%;
+}
+
+.success {
+    background-color: green;
+}
+
+.fail {
+    background-color: red;
+}
